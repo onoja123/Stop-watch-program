@@ -31,9 +31,7 @@ pause.addEventListener("click", () =>{
 reset.addEventListener("click", () =>{
     if(paused){
         paused = true;
-     clearInterval(invervalId)   
-    startTime = 0;
-    ellapsedTime = 0;
+     clearInterval(invervalId)
     currentTime = 0;
      hrs = 0;
      min = 0;
